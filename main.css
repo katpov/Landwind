@@ -74,7 +74,6 @@ li {
     display: flex;
     column-gap: 32px;
     justify-content: flex-start;
-    margin-right: 435px;
 }
 
 .nav_links a:hover {
@@ -143,7 +142,6 @@ li {
 
 .logos {
     display: flex;
-    column-gap: 56px;
     justify-content: space-between;
 }
 
@@ -180,6 +178,10 @@ li {
 .features {
     padding: 96px 0px;
     row-gap: 80px;
+}
+
+.features_block {
+    column-gap: 64px;
 }
 
 .text_content {
@@ -236,6 +238,10 @@ li {
 .social_proof {
     padding-top: 96px;
     padding-bottom: 96px;
+}
+
+.social_proof_block {
+    column-gap: 96px;
 }
 
 .social_proof .text_content {

@@ -1,0 +1,110 @@
+@media (max-width: 1200px) {
+    body {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .social_proof .text_content {
+        max-width: 100%;
+    }
+
+    .stats {
+        max-width: 100%;
+    }
+
+    .stat {
+        max-width: 50%;
+    }
+
+    .social_proof_block {
+        row-gap: 32px;
+    }
+
+    .pricing_cards {
+        flex-direction: column;
+        row-gap: 32px;
+        align-items: center;
+    }
+
+    .features_block {
+        column-gap: normal;
+    }
+
+    .features_block .text_content {
+        max-width: 100%;
+    }
+
+    .features .img_content {
+        display: none;
+    }
+
+    .hero {
+        padding-bottom: 98px;
+    }
+
+    .hero .text_block_btn {
+        max-width: 100%;
+    }
+
+    .hero .image_block {
+        display: none;
+    }
+
+    .customer_logos {
+        padding-bottom: 0px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .nav_links {
+        display: none;
+    }
+
+    .mbl_menu span::after {
+        content: '\f0c9';
+        font-family: "fontello";
+        color: #6B7280;
+    }
+
+    .logos {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .google_img,
+    .microsoft_img,
+    .spotify_img,
+    .mailchimp_img,
+    .airbnb_img,
+    .uber_img {
+        margin: 20px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 52px;
+    }
+
+    .logo {
+        max-width: 70px;
+    }
+
+    .links_block {
+        flex-wrap: wrap;
+        row-gap: 32px;
+        justify-content: start;
+    }
+
+    .rows {
+        flex-wrap: wrap;
+        row-gap: 32px;
+    }
+
+    .stat {
+        max-width: 100%;
+    }
+}
